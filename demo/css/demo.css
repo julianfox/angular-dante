@@ -2,41 +2,13 @@
     outline: none;
 }
 
-@font-face {
-    font-family: 'ProximaNovaBlack';
-    src: url('http://dfimg.com/fonts/proximanova-black-webfont.eot');
-    src: url('http://dfimg.com/fonts/proximanova-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://dfimg.com/fonts/proximanova-black-webfont.woff') format('woff'),
-         url('http://dfimg.com/fonts/proximanova-black-webfont.ttf') format('truetype'),
-         url('http://dfimg.com/fonts/proximanova-black-webfont.svg#ProximaNovaBlack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ProximaNovaRegular';
-    src: url('http://dfimg.com/fonts/proximanova-regular-webfont.eot');
-    src: url('http://dfimg.com/fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://dfimg.com/fonts/proximanova-regular-webfont.woff') format('woff'),
-         url('http://dfimg.com/fonts/proximanova-regular-webfont.ttf') format('truetype'),
-         url('http://dfimg.com/fonts/proximanova-regular-webfont.svg#ProximaNovaRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    font-family: ProximaNovaRegular, Helvetica, Arial, sans-serif;
-    font-size: 22px;
-    line-height: 30px;
-}
-
 #container {
     width: 960px;
     margin: 30px auto;
 }
 
 h1 {
-    font-family: ProximaNovaBlack, Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 60px;
     font-weight: normal;
     text-align: center;
@@ -45,43 +17,6 @@ h1 {
     letter-spacing: -2px;
     border-bottom: 1px solid #dbdbdb;
 }
-
-p {
-    margin-bottom: 40px;
-}
-
-b {
-    font-family: ProximaNovaRegular, Helvetica, Arial, sans-serif;
-    font-weight: bolder
-}
-
-a {
-    color:black;
-}
-
-a:hover {
-    color:green;
-}
-
-blockquote {
-    display: block;
-    padding-left: 20px;
-    border-left: 6px solid #df0d32;
-}
-
-.editable {
-    outline: none;
-    margin: 0 0 20px 0;
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid #dbdbdb;
-}
-
-
-#container {
-    width: 960px;
-    margin: 30px auto;
-}
-
 
 h3 {
     font-size: 32px;
@@ -93,7 +28,6 @@ h4 {
     line-height: 32px;
 }
 
-
 blockquote {
     border-left: 5px solid #555;
     margin-left: -15px;
@@ -101,4 +35,3 @@ blockquote {
     font-style: italic;
     color: #555;
 }
-

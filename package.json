@@ -1,21 +1,21 @@
 {
-  "name": "angular-medium-editor",
+  "name": "angular-dante",
   "version": "0.1.0",
-  "description": "AngularJS directive for Medium.com editor clone",
+  "description": "AngularJS directive for dante",
   "keywords": [
     "angular",
-    "medium-editor"
+    "dante"
   ],
-  "homepage": "https://github.com/thijsw/angular-medium-editor",
-  "bugs": "https://github.com/thijsw/angular-medium-editor/issues",
+  "homepage": "https://github.com/julianfox/angular-dante",
+  "bugs": "https://github.com/julianfox/angular-dante/issues",
   "author": {
-    "name": "Thijs Wijnmaalen",
-    "email": "thijs@wijnmaalen.name",
-    "url": "https://twitter.com/thijsw"
+    "name": "Julian Renard",
+    "email": "renard.julian@gmail.com",
+    "url": "https://twitter.com/Julian_renard"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thijsw/angular-medium-editor.git"
+    "url": "git@github.com:julianfox/angular-dante.git"
   },
   "licenses": [
     {

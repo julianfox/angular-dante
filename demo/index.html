@@ -2,25 +2,22 @@
 <html ng-app="demo">
 <head>
     <meta charset="UTF-8">
-    <title>angularjs medium editor | demo</title>
+    <title>angularjs dante | demo</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/demo.css">
-    <link rel="stylesheet" href="../bower_components/medium-editor/dist/css/medium-editor.css">
-    <link rel="stylesheet" href="../bower_components/medium-editor/dist/css/themes/default.css">
-    <style>
-    </style>
+    <link rel="stylesheet" href="../bower_components/dante/dist/css/dante-editor.css">
 </head>
 <body>
     <div id="container" ng-controller="demo">
-        <h1>Medium Editor for AngularJS</h1>
-        <form name="demo">
-            <div ng-model="text" medium-editor></div>
-        </form>
+        <h1>Dante for AngularJS</h1>
+        <div dante ng-model="text" bind-options="danteOptions" activate-auto-save="true" fire-save=""></div>
     </div>
-    <p style="text-align: center;"><small><a style="color: #333;" target="_blank" href="http://www.goodreads.com/reader/475-great-expectations">Source</a></small></p>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/sanitize.js/lib/sanitize.js"></script>
+    <script src="../bower_components/underscore/underscore.js"></script>
     <script src="../bower_components/angular/angular.js"></script>
-    <script src="../bower_components/medium-editor/dist/js/medium-editor.js"></script>
-    <script src="../dist/angular-medium-editor.js"></script>
+    <script src="../bower_components/dante/dist/js/dante-editor.js"></script>
+    <script src="../dist/angular-dante.js"></script>
     <script src="demo.js"></script>
 </body>
 </html>
